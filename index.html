@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RK DESIGNS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    .nav-link:hover {
+        color: black;
+
+    }
+
+    .navbar-brand:hover {
+        color: black;
+    }
+
+    .navbar-brand {
+        border-radius: 30px;
+        font-weight: bolder;
+        width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing steps(20, start)forwards alternate 10s;
+    }
+
+    .nav-link {
+        color: whitesmoke;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .dropdown-menu {
+
+        background-color: rgb(17, 176, 240);
+    }
+
+    .dropdown-item {
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    body {
+        background-image: url(images/Wallpaper\ 4k.jpeg);
+    }
+
+    h1 {
+        text-align: center;
+        font-family: Arimo;
+        font-weight: bolder;
+
+    }
+
+    .course-details {
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .coloumn {
+        border-radius: 25px;
+    }
+
+    .para {
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .AI-para {
+        font-weight: bolder;
+        color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .certificate {
+        font-weight: bolder;
+        color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .skills {
+        font-weight: bolder;
+        color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .ai-pdf {
+        color: whitesmoke;
+        border-radius: 10px;
+        font-weight: bolder;
+        margin-left: 100px;
+    }
+
+    .AI-Button {
+        border-radius: 10px;
+        font-weight: bolder;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: solid whitesmoke 3px;
+    }
+
+    .python-details {
+        font-weight: bolder;
+        color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .python-pdf {
+        color: whitesmoke;
+        border-radius: 10px;
+        font-weight: bolder;
+        margin-left: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: solid whitesmoke 3px;
+    }
+
+    .devops-dropdown-menu {
+        color: whitesmoke;
+    }
+
+    .devops-dropdown-item {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .devops-link {
+        color: whitesmoke;
+        font-weight: bolder;
+        margin-left: 100px;
+        border-radius: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: solid whitesmoke 3px;
+    }
+
+    .devops-link:hover {
+        color: black;
+    }
+
+    .devops-pdf {
+        color: whitesmoke;
+        border-radius: 10px;
+        font-weight: bolder;
+        margin-left: 100px;
+        border: solid whitesmoke 3px;
+
+    }
+
+    .devops-details {
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .devops-para {
+        color: whitesmoke;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .devops-Benefits {
+        font-weight: bolder;
+        color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .Java-para {
+        font-weight: bolder;
+        color: whitesmoke;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .java-Features {
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .Java-pdf {
+        color: whitesmoke;
+        border-radius: 10px;
+        font-weight: bolder;
+        margin-left: 100px;
+        border: solid whitesmoke 3px;
+
+    }
+
+    .images {
+        border: solid rgb(5, 175, 243) 5px;
+    }
+
+    h4 {
+        font-weight: bolder;
+
+    }
+
+    .text-animation {
+        border-right: 3px;
+        width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing steps(20, start)forwards alternate 6s;
+    }
+
+    @keyframes typing {
+        0% {
+            width: 0;
+        }
+
+        50% {
+            width: 30%;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info">
+        <!-- NavBar Containers -->
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/RK creations.jpeg" style="border-radius: 30px;"
+                    width="40px" height="40px" alt="">RK DESIGNS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#Apple"
+                aria-controls="Apple" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="Apple">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Internship</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Technical.html">Technical Fields</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav> <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!--RK-Design Start  -->
+    <div class="container">
+        <div class="text-animation">
+            <h4 class="text-info">GREETINGS FROM RK DESIGNS</h4>
+        </div>
+        <br>
+    </div>
+    <h1 class="text-info" style="font-family: 'Courier New', Courier, monospace;">Immortable Online Classes</h1>
+    <div class="para">
+        <p>Are you on the lookout for some great Online Courses? Well you've come to the right place! We've done the
+            the most profitable and on demand Online Courses.Whenever you want to join a Online Course to become
+            successful
+            in business ,You'll find what you need right here. </p>
+    </div>
+    <!-- RK-Design End -->
+    <!-- AI-Start -->
+    <h1 class="text-info" style="font-family:Verdana, Geneva, Tahoma, sans-serif;">ARTIFICIAL INTELLIGENCE</h1><br>
+    <img class="images" src="images/training AI.jfif" height="280px" width="280px" style=" position:relative; left:5px;"
+        alt="">
+    <div class="AI-para">
+        <p>
+        <h4 class="text-info">Generative AI for Business with Microsoft Azure OpenAI</h4>
+        16-Weeks . Online . Certifacate from Microsoft Azure</p><br>
+        <p>
+        <h4 class="text-info">Gain a competitive edge with expertise in Generative AI</h4>
+        &#10003 8+ case studies,a hands-on project <br>
+        &#10003 Career prep sessions</p>
+        &#10003 Learn Prompt Engineering without and with code</p>
+        &#10003 No Technical background required</p>
+        &#10003 Certifacate of Completion from great learning and Microsoft Azure</p><br>
+    </div>
+    <div class="certificate">
+        <p>
+        <h4 class="text-info">Earn a Certifacate from Microsoft Azure</h4>
+        Enhance Your resume with a certifacte in Generative AI for Business with Microsoft Azure
+        OpenAI from Great Learning and Microsoft Azure and share it with your professional network
+        </p><br>
+        <img class="images" src="images/gen_ai_certificate_update.jpg" height="200px" width="250px"
+            style="position: relative; left: 10px;" alt=""><br>
+    </div><br>
+    <div class="skills">
+        <p>
+        <h4 class="text-info">SKILLS COVERED</h4>
+        &#10003 Explainable AI <br>
+        &#10003 Prompt Engineering <br>
+        &#10003 Conversational AI <br>
+        &#10003 Risk Management with AI <br>
+        &#10003 Product Research and Developement <br>
+        &#10003 Data Visualization <br>
+        &#10003 Data Modeling <br>
+        &#10003 Data Analytics <br>
+        &#10003 Predictive Analytics <br>
+        &#10003 Workflow Automation <br>
+        &#10003 Ethics of Generative AI <br>
+        &#10003 Lead Generation <br>
+        &#10003 Code Generation <br>
+        </p>
+        <a href="https://www.w3schools.com/ai/default.asp">
+            <button class="ai-pdf bg-info AI-Button">AI GUIDE</button>
+        </a>
+    </div>
+    <br><br>
+    <!-- AI-End -->
+    <!-- Python-course Start -->
+    <div class="python-details">
+        <p>
+        <h1 class="text-info">Python Training & Placements</h1>
+        <img class="images" src="images/Training rooms 1.jpeg" height="300px" width="300px" alt=""><br><br>
+        <p class="text-info">Ranked #1 Python Training Institute with Placement.</p> <br>
+        <strong class="text-info">RK DESIGNS</strong> Provides the Best Python Training in both Online & Offline
+        with 100% Placement.Learn Python Programming from Basics to Advanced and
+        get Real-time Experience. <br><br>
+        &#10003 Enroll Now for Trending Courses with Job Assurance <br>
+        &#10003 15+ Years Experience in Software Training & Placements <br>
+        &#10003 20+ Branches in Nagercoil & Kerela <br>
+        </p> <br>
+        <a href="https://www.w3schools.com/python/default.asp">
+            <button class="python-pdf bg-info">
+                <strong>PYTHON GUIDE</strong>
+            </button><br><br>
+        </a>
+    </div>
+    <!-- Python-course End -->
+
+    <!-- Devops-courses start -->
+    <div class="devops-details">
+        <h1 class="text-info">DevOps COURSES</h1><br>
+        <h2 class="text-info">Without DevOps in your IT ?</h2>
+        <a href="https://www.w3schools.com/aws/aws_devops.php">
+            <button class="devops-pdf bg-info">LEARN ABOUT....</button> </a>
+        <br><br>
+        <h4 class="text-info">DevOps</h4><br>
+        <h6 class="text-info">Get started on DevOps Training with Content Build by
+            RK DESIGNS</h6><br>
+        <p class="devops-para">If you're a Begginer Looking for a clear starting point to help you Build a Career
+            or Learn how to Implement a Solution in DevOps,We Recommend You Start with RK DESIGNS. <br>
+        </p>
+        <li class="nav-item dropdown">
+            <a class="devops-link dropdown-toggle bg-info" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Internship</a>
+            <ul class="dropdown-menu bg-info">
+                <li><a class="dropdown-item text-dark" href="Technical.html">Get Trained</a></li></a>
+                <li><a class="dropdown-item text-dark" href="nonTechnical.html">Get Certified</a></li>
+                <li><a class="dropdown-item text-dark" href="nonTechnical.html">AWS Partner Training</a></li>
+                <li><a class="dropdown-item text-dark" href="nonTechnical.html">Education Programs</a></li>
+                <li><a class="dropdown-item text-dark" href="nonTechnical.html">Team Training</a></li>
+            </ul>
+        </li> <br><br>
+        <h5 class="text-info">
+            DevOps in AI</h5><br>
+        <img class="images" src="images/devops 1.jpeg"
+            style="height: 250px; width: 250px; position: relative; left: 15px;" alt="">
+        <div><br>
+            <h4 class="text-info">BENEFITS</h4>
+            <p class="devops-Benefits">
+                &#10003 Automatically Detect and Resolve Opwerational Issues <br>
+                &#10003 Improve Code Quality With Continous Monitoring <br>
+                &#10003 Optimize Application Performance and Reduce Cost <br>
+                &#10003 Reduce Your Mean-Time-To-Recovery (MTTR) <br>
+            </p>
+        </div>
+    </div><br><br>
+    <!-- Devops-course End -->
+
+    <!-- JavaScript-Start -->
+    <div class="Java-details">
+        <h1 class="text-info">JAVASCRIPT COURSES</h1><br>
+        <h4 class="text-info">Technologies In JAVASCRIPT</h4><br>
+        <img class="images" src="images/js without bg.png"
+            style="position: relative; left: 0%; height: 300px; width: 300px;" alt=""><br><br>
+        <h4 class="text-info">What is JAVASCRIPT ?</h4>
+        <p class="Java-para">
+            JavaScript is a programming language used for creating dynamic content on websites.
+            It is a lightweight, cross-platform and single-threaded programming language.
+            JavaScript is an interpreted language that executes code line by line providing more flexibility.
+            It is a commonly used programming language to create dynamic and interactive elements in web applications.
+            It is easy to learn.
+        </p>
+        <h4 class="text-info">Why to Learn JAVASCRIPT</h4>
+        <p class="Java-para">
+            JavaScript is an essential programming language for web developers to learn as it grows rapidly.
+            JavaScript is responsible for behaviour of the web pages.
+            By learning it, you will develop skills in web development.
+        </p>
+        <h4 class="text-info">Key Features of JAVASCRIPT</h4>
+        <p class="Java-para">
+            <strong class="java-Features text-info">Versatility:</strong> JavaScript can be used to develop websites,
+            games, mobile apps, and more. <br><br>
+            <strong class="java-Features text-info"> Client and Server-Side:</strong> With frameworks like Node.js and
+            Express.js, JavaScript is now used for building server-side applications. <br><br>
+            <strong class="java-Features text-info">End-to-End Solutions:</strong> JavaScript enables developers to
+            create complete solutions for various problems. <br><br>
+            <strong class="java-Features text-info">Constant Evolution:</strong> JavaScript continually evolves with new
+            features and standards. <br><br>
+            <strong class="java-Features text-info">Vibrant Community:</strong> A large community of users and mentors
+            actively contributes to JavaScript's growth. <br><br>
+        </p>
+        <a href="https://www.w3schools.com/js/default.asp">
+            <button class="Java-pdf bg-info">
+                JAVASCRIPT Guide
+            </button></a>
+    </div>
+    <br><br><br>
+    <fieldset class="bg-black border 5px p-2 text-center">
+        <table>
+            <tr class="text-info">
+                <td>Home</td>
+                <td>About</td>
+                <td>Services</td>
+                <td>Contact</td>
+            </tr>
+        </table>
+
+    </fieldset><br><br><br>
+</body>
+
+</html>
